@@ -228,42 +228,9 @@
 - Type: MISC_RESTRICTIVE
   Forward: Windfall Island,                        Windfall Bomb Shop Upper Ledge,          sea,     11, 2, Obombh,   0,     1
   Return:  Windfall Bomb Shop Upper Ledge,         Windfall Island,                         Obombh,   0, 2, sea,     11,     2
-- Type: MISC
-  Forward: Dragon Roost Island,                    Dragon Roost Rito Aerie,                 sea,     13, 0, Atorizk,  0,     0
-  Return:  Dragon Roost Rito Aerie,                Dragon Roost Island,                     Atorizk,  0, 0, sea,     13,     1
-- Type: MISC
-  Forward: Dragon Roost Island Flight Deck,        Dragon Roost Rito Aerie,                 sea,     13, 1, Atorizk,  0,     1
-  Return:  Dragon Roost Rito Aerie,                Dragon Roost Island Flight Deck,         Atorizk,  0, 1, sea,     13,     2
-- Type: MISC
-  Forward: Dragon Roost Pond,                      Dragon Roost Rito Aerie,                 Adanmae,  0, 0, Atorizk,  0,     2
-  Return:  Dragon Roost Rito Aerie,                Dragon Roost Pond,                       Atorizk,  0, 2, Adanmae,  0,     0
-- Type: MISC_RESTRICTIVE
-  Forward: Dragon Roost Rito Aerie,                Dragon Roost Pond Upper Ledge,           Atorizk,  0, 3, Adanmae,  0,     1
-  Return:  Dragon Roost Pond Upper Ledge,          Dragon Roost Rito Aerie,                 Adanmae,  0, 1, Atorizk,  0,     3
 - Type: MISC_RESTRICTIVE
   Forward: Islet of Steel,                         Islet of Steel Interior,                 sea,     30, 0, ShipD,    0,     0
   Return:  Islet of Steel Interior,                Islet of Steel,                          ShipD,    0, 0, sea,     30,     1
-- Type: MISC
-  Forward: Forest Haven,                           Forest Haven Interior,                   sea,     41, 5, Omori,    0,     5
-  Return:  Forest Haven Interior,                  Forest Haven,                            Omori,    0, 5, sea,     41,     5
-- Type: MISC_RESTRICTIVE
-  Forward: Forest Haven,                           Forest Haven Waterfall Cave,             sea,     41, 7, Otkura,   0,     0
-  Return:  Forest Haven Waterfall Cave,            Forest Haven,                            Otkura,   0, 0, sea,     41,     9
-- Type: MISC_RESTRICTIVE
-  Forward: Forest Haven Interior,                  Forest Potion Shop,                      Omori,    0, 0, Ocrogh,   0,     0
-  Return:  Forest Potion Shop,                     Forest Haven Interior,                   Ocrogh,   0, 0, Omori,    0,     0
-- Type: MISC
-  Forward: Forest Haven Exterior North Ledge,      Forest Haven Interior North Ledge,       sea,     41, 1, Omori,    0,     1
-  Return:  Forest Haven Interior North Ledge,      Forest Haven Exterior North Ledge,       Omori,    0, 1, sea,     41,     1
-- Type: MISC
-  Forward: Forest Haven Exterior West Lower Ledge, Forest Haven Interior West Lower Ledge,  sea,     41, 3, Omori,    0,     3
-  Return:  Forest Haven Interior West Lower Ledge, Forest Haven Exterior West Lower Ledge,  Omori,    0, 3, sea,     41,     3
-- Type: MISC
-  Forward: Forest Haven Exterior West Upper Ledge, Forest Haven Interior West Upper Ledge,  sea,     41, 2, Omori,    0,     2
-  Return:  Forest Haven Interior West Upper Ledge, Forest Haven Exterior West Upper Ledge,  Omori,    0, 2, sea,     41,     2
-- Type: MISC
-  Forward: Forest Haven Exterior South Ledge,      Forest Haven Interior South Ledge,       sea,     41, 4, Omori,    0,     4
-  Return:  Forest Haven Interior South Ledge,      Forest Haven Exterior South Ledge,       Omori,    0, 4, sea,     41,     4
 - Type: MISC_RESTRICTIVE
   Forward: Outset Island,                          Outset Under Link's House,               sea,     44, 9, LinkUG,   0,     1
   Return:  Outset Under Link's House,              Outset Island,                           LinkUG,   0, 0, sea,     44,    11
