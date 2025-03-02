@@ -1,4 +1,5 @@
-; These modify places in the game's code to work better with randomized entrances.
+; These modify places in the game's code to fix some edge-case entrance issues.
+; Some are only apparent with entrances shuffled, but they're still nice changes without.
 
 ; Quitting auction normally calls dComIfGp_setNextStage(0.0, "sea", 3, 0xb, 0xff, 0, 1, 0) to put you back on Windfall
 ; This can be very inconvenient depending on what entrance led to the auction house

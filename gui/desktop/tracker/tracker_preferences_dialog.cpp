@@ -1,9 +1,10 @@
 #include "tracker_preferences_dialog.hpp"
-#include "../ui_mainwindow.h"
-#include "../mainwindow.hpp"
 
 #include <QColorDialog>
 #include <QFileDialog>
+
+#include <../ui_mainwindow.h>
+#include <gui/desktop/mainwindow.hpp>
 
 TrackerPreferencesDialog::TrackerPreferencesDialog(MainWindow* main_) : main(main_) {
     ui.setupUi(this);
@@ -34,7 +35,7 @@ void TrackerPreferencesDialog::on_show_location_logic_stateChanged(int arg1)
     }
 
     main->trackerPreferences.showLocationLogic = arg1;
-    main->autosave_current_tracker_preferences(); //TODO: error handling?
+    main->autosave_current_tracker_preferences();
 }
 
 
